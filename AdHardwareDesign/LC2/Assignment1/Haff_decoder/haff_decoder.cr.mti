@@ -1,0 +1,15 @@
+D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Haff_decoder/decoder.v {1 {vlog -work work -stats=none D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Haff_decoder/decoder.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module decoder
+
+Top level modules:
+	decoder
+
+} {} {}} D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Haff_decoder/test.v {1 {vlog -work work -stats=none D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Haff_decoder/test.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}}

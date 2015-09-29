@@ -1,0 +1,28 @@
+Ophelia1
+1)pwd
+
+default=/home/guest
+
+2)mkdir jiayang_FE
+3)cd jiayang_FE
+4)pwd
+/home/guest/jiayang_FE
+
+5)mkdir lab0
+
+
+Ex3
+xinetd is running
+inetd is not running
+
+guest@ophelia1:~/jiayang_FE/lab0$ ls -l
+total 88
+-rw-rw-r-- 1 guest guest     0 Sep 18 19:04 ex4
+-rw-rw-r-- 1 guest guest   162 Sep 18 18:58 README.md
+-rw-rw-r-- 1 guest guest   158 Sep 18 18:55 README.md~
+-rw-rw-r-- 1 guest guest 39116 Sep 18 19:10 ser_cat
+-rw-rw-r-- 1 guest guest 19558 Sep 18 19:08 ser_copy
+-rw-rw-r-- 1 guest guest 19558 Sep 18 19:06 ser_more
+
+
+MAC=f8:0f:41:c3:88:0d 

@@ -1,0 +1,178 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dd:/program files/ModelSim/examples
+vcomparator
+Z0 !s110 1443217533
+!i10b 1
+!s100 g5cdVA>V?jbSHCd0KKPg:3
+I[Ee_;OG`Y1YzQ@XTLQcK32
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/long_div
+Z3 w1443216936
+Z4 8D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/long_div/Divider.v
+Z5 FD:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/long_div/Divider.v
+L0 57
+Z6 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z7 !s108 1443217533.000000
+Z8 !s107 D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/long_div/Divider.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/long_div/Divider.v|
+!s101 -O0
+!i113 1
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vcounter
+R0
+!i10b 1
+!s100 :GM[N=6N1E_j;8Uf8YUBi2
+IU1NZm846EY8=_4=O9j1RL1
+R1
+R2
+R3
+R4
+R5
+L0 47
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vdivider
+R0
+!i10b 1
+!s100 bDU5;gI=Yfo^fe<fm8mkl0
+IaBF=Q>>5ZjVS_V^aH[gC91
+R1
+R2
+R3
+R4
+R5
+L0 125
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vinitreg
+R0
+!i10b 1
+!s100 T@QAaUJ<]z_c:nT[`WZeZ1
+I@Vf[ijz=f5KT=^:mjCNMW2
+R1
+R2
+R3
+R4
+R5
+L0 18
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vmyfsm
+R0
+!i10b 1
+!s100 [2_8]>5=MUZTgO3^U_P_A0
+I8Xooi`oFA^hIM`VN:W?g11
+R1
+R2
+R3
+R4
+R5
+L0 72
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vmyreg
+R0
+!i10b 1
+!s100 25l7fiSehTLkeJC7Jc1EV3
+IbHgj6W3Sf:Z6>Dj=^C]MI0
+R1
+R2
+R3
+R4
+R5
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vsubtract
+R0
+!i10b 1
+!s100 2eghZ]M[LHJ1ZF;Y4>Q[]1
+IcTQMNNIaE<_b;E636BZ^U3
+R1
+R2
+R3
+R4
+R5
+L0 37
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vtest
+R0
+!i10b 1
+!s100 X]:m?`dRNY0QZSgW:0mbe2
+IT5maLLnm787oa6MQ>iOSC0
+R1
+R2
+w1443217528
+8D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/long_div/test.v
+FD:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/long_div/test.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/long_div/test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/long_div/test.v|
+!s101 -O0
+!i113 1
+R10

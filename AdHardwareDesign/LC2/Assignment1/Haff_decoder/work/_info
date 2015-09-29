@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dd:/program files/ModelSim/examples
+vdecoder
+Z0 !s110 1443042708
+!i10b 1
+!s100 3SeTNLW?EIef<jWefKA5c0
+IZWBe]O<jez=iY<ce;T9?]0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Haff_decoder
+w1442984416
+8D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Haff_decoder/decoder.v
+FD:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Haff_decoder/decoder.v
+L0 1
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1443042708.000000
+!s107 D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Haff_decoder/decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Haff_decoder/decoder.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vtest
+R0
+!i10b 1
+!s100 2KBzaSZ>R`c79aO7_]e;J2
+IK=Z_Hn;H4dB`m>`>6Tg<90
+R1
+R2
+w1443042700
+8D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Haff_decoder/test.v
+FD:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Haff_decoder/test.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Haff_decoder/test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Haff_decoder/test.v|
+!s101 -O0
+!i113 1
+R5

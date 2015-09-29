@@ -1,0 +1,176 @@
+# Reading D:/Program Files/ModelSim/tcl/vsim/pref.tcl
+# OpenFile D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/long_div/long_div.mpf
+# Loading project long_div
+# Compile of Divider.v failed with 3 errors.
+# Compile of test.v was successful.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of Divider.v failed with 3 errors.
+# Compile of test.v was successful.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of Divider.v failed with 2 errors.
+# Compile of test.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of Divider.v failed with 2 errors.
+# Compile of test.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of Divider.v failed with 2 errors.
+# Compile of test.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of Divider.v failed with 1 errors.
+# Compile of test.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of Divider.v failed with 1 errors.
+# Compile of test.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of Divider.v failed with 1 errors.
+# Compile of test.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of Divider.v failed with 1 errors.
+# Compile of test.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of Divider.v failed with 1 errors.
+# Compile of test.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of Divider.v failed with 1 errors.
+# Compile of test.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.test
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui D:\OneDrive\PolyCourse\AdHardwareDesign\LC2\Assignment1\long_div\long_div.mpf 
+# Start time: 17:36:06 on Sep 25,2015
+# Loading work.test
+# Loading work.divider
+# Loading work.myreg
+# Loading work.subtract
+# Loading work.initreg
+# Loading work.comparator
+# Loading work.counter
+# Loading work.myfsm
+add wave -position insertpoint  \
+sim:/test/clk \
+sim:/test/rst \
+sim:/test/a \
+sim:/test/b \
+sim:/test/done \
+sim:/test/quotient \
+sim:/test/remainder
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.divider
+# Loading work.myreg
+# Loading work.subtract
+# Loading work.initreg
+# Loading work.comparator
+# Loading work.counter
+# Loading work.myfsm
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+restart -f
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.divider
+# Loading work.myreg
+# Loading work.subtract
+# Loading work.initreg
+# Loading work.comparator
+# Loading work.counter
+# Loading work.myfsm
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+restart -f
+# Loading work.test
+# Loading work.divider
+# Loading work.myreg
+# Loading work.subtract
+# Loading work.initreg
+# Loading work.comparator
+# Loading work.counter
+# Loading work.myfsm
+run
+run
+# End time: 17:46:39 on Sep 25,2015, Elapsed time: 0:10:33
+# Errors: 7, Warnings: 0

@@ -1,0 +1,128 @@
+# Reading D:/Program Files/ModelSim/tcl/vsim/pref.tcl
+# OpenFile D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Haff_decoder/haff_decoder.mpf
+# Loading project haff_decoder
+vsim -gui work.test
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui D:\OneDrive\PolyCourse\AdHardwareDesign\LC2\Assignment1\Haff_decoder\haff_decoder.mpf 
+# Start time: 16:35:36 on Sep 25,2015
+# Loading work.test
+# Loading work.decoder
+add wave -position insertpoint  \
+sim:/test/in \
+sim:/test/rst \
+sim:/test/clk \
+sim:/test/a \
+sim:/test/b \
+sim:/test/c \
+sim:/test/d
+run
+#                    0in=0, clk=1, rst=0, a=0, b=0,c=,d=0
+run
+#                   20in=0, clk=0, rst=1, a=0, b=0,c=,d=0
+run
+#                   40in=0, clk=1, rst=1, a=0, b=0,c=,d=0
+run
+#                   60in=0, clk=0, rst=1, a=0, b=0,c=,d=0
+run
+#                   80in=0, clk=1, rst=1, a=0, b=0,c=,d=0
+run
+#                  100in=0, clk=0, rst=1, a=0, b=0,c=,d=0
+#                  110in=0, clk=0, rst=0, a=0, b=0,c=,d=0
+run
+#                  120in=0, clk=1, rst=0, a=1, b=0,c=,d=0
+run
+#                  140in=0, clk=0, rst=0, a=1, b=0,c=,d=0
+run
+#                  160in=0, clk=1, rst=0, a=1, b=0,c=,d=0
+run
+#                  180in=0, clk=0, rst=0, a=1, b=0,c=,d=0
+run
+#                  200in=0, clk=1, rst=0, a=1, b=0,c=,d=0
+#                  210in=1, clk=1, rst=0, a=0, b=0,c=,d=0
+run
+#                  220in=1, clk=0, rst=0, a=0, b=0,c=,d=0
+run
+#                  240in=1, clk=1, rst=0, a=0, b=0,c=,d=0
+run
+#                  260in=1, clk=0, rst=0, a=0, b=0,c=,d=0
+run
+#                  280in=1, clk=1, rst=0, a=0, b=0,c=,d=1
+run
+#                  300in=1, clk=0, rst=0, a=0, b=0,c=,d=1
+#                  315in=0, clk=0, rst=0, a=0, b=0,c=,d=0
+run
+#                  320in=0, clk=1, rst=0, a=1, b=0,c=,d=0
+run
+#                  340in=0, clk=0, rst=0, a=1, b=0,c=,d=0
+run
+#                  360in=0, clk=1, rst=0, a=1, b=0,c=,d=0
+run
+#                  380in=0, clk=0, rst=0, a=1, b=0,c=,d=0
+run
+#                  400in=0, clk=1, rst=0, a=1, b=0,c=,d=0
+run
+#                  420in=0, clk=0, rst=0, a=1, b=0,c=,d=0
+run
+#                  440in=0, clk=1, rst=0, a=1, b=0,c=,d=0
+#                  455in=1, clk=1, rst=0, a=0, b=0,c=,d=0
+run
+#                  460in=1, clk=0, rst=0, a=0, b=0,c=,d=0
+run
+#                  480in=1, clk=1, rst=0, a=0, b=0,c=,d=0
+run
+#                  500in=1, clk=0, rst=0, a=0, b=0,c=,d=0
+run
+#                  520in=1, clk=1, rst=0, a=0, b=0,c=,d=1
+run
+#                  540in=1, clk=0, rst=0, a=0, b=0,c=,d=1
+run
+#                  560in=1, clk=1, rst=0, a=0, b=0,c=,d=0
+run
+#                  580in=1, clk=0, rst=0, a=0, b=0,c=,d=0
+run
+#                  600in=1, clk=1, rst=0, a=0, b=0,c=,d=0
+run
+#                  620in=1, clk=0, rst=0, a=0, b=0,c=,d=0
+#                  635in=0, clk=0, rst=0, a=0, b=1,c=,d=0
+run
+#                  640in=0, clk=1, rst=0, a=1, b=0,c=,d=0
+run
+#                  660in=0, clk=0, rst=0, a=1, b=0,c=,d=0
+run
+#                  680in=0, clk=1, rst=0, a=1, b=0,c=,d=0
+run
+#                  700in=0, clk=0, rst=0, a=1, b=0,c=,d=0
+run
+#                  720in=0, clk=1, rst=0, a=1, b=0,c=,d=0
+run
+#                  740in=0, clk=0, rst=0, a=1, b=0,c=,d=0
+run
+#                  760in=0, clk=1, rst=0, a=1, b=0,c=,d=0
+run
+#                  780in=0, clk=0, rst=0, a=1, b=0,c=,d=0
+run
+#                  800in=0, clk=1, rst=0, a=1, b=0,c=,d=0
+run
+#                  820in=0, clk=0, rst=0, a=1, b=0,c=,d=0
+#                  835in=1, clk=0, rst=0, a=0, b=0,c=,d=0
+run
+#                  840in=1, clk=1, rst=0, a=0, b=0,c=,d=0
+# End time: 16:37:04 on Sep 25,2015, Elapsed time: 0:01:28
+# Errors: 0, Warnings: 0
