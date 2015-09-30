@@ -1,0 +1,24 @@
+D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Divider/FSM.v {1 {vlog -work work -stats=none D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Divider/FSM.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+
+} {} {}} D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Divider/Divider.v {1 {vlog -work work -stats=none D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Divider/Divider.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Reg
+-- Compiling module Reg21
+-- Compiling module Subtractor
+-- Compiling module Comparator
+-- Compiling module Counter
+-- Compiling module FSM
+-- Compiling module Divider
+
+Top level modules:
+	Divider
+
+} {} {}} D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Divider/test.v {1 {vlog -work work -stats=none D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Divider/test.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}}
