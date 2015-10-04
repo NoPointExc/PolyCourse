@@ -1,0 +1,15 @@
+D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/test.v {1 {vlog -work work -stats=none D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/test.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}} D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/test_FSM.v {1 {vlog -work work -stats=none D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/test_FSM.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module test_FSM
+
+Top level modules:
+	test_FSM
+
+} {} {}}

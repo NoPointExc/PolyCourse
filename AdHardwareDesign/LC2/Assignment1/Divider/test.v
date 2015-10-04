@@ -20,6 +20,6 @@ initial begin
   #10 rst = 1;
   #20 rst = 0;
      divider = 3;
-     dividend = 20;
+     dividend = 10;
 end
 endmodule

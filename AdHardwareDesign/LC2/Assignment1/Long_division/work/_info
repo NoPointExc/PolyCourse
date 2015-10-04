@@ -1,0 +1,249 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Divider
+vComparator
+Z0 !s110 1443920593
+!i10b 1
+!s100 J=Ual]2YR95GOD:oAdlNm1
+Ib8n2bkbOUFJPLG=:5_j980
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division
+Z3 w1443920590
+Z4 8D:\OneDrive\PolyCourse\AdHardwareDesign\LC2\Assignment1\Long_division\Divider.v
+Z5 FD:\OneDrive\PolyCourse\AdHardwareDesign\LC2\Assignment1\Long_division\Divider.v
+L0 52
+Z6 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z7 !s108 1443920593.000000
+Z8 !s107 D:\OneDrive\PolyCourse\AdHardwareDesign\LC2\Assignment1\Long_division\Divider.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|D:\OneDrive\PolyCourse\AdHardwareDesign\LC2\Assignment1\Long_division\Divider.v|
+!s101 -O0
+!i113 1
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+n@comparator
+vCounter
+R0
+!i10b 1
+!s100 jlWm0?WkKnze<71YPYVB`3
+I]eSB`6YYi<I`C7Ii_HG1C1
+R1
+R2
+R3
+R4
+R5
+L0 64
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+n@counter
+vDivider
+R0
+!i10b 1
+!s100 ABUFC=YTfN8>fBJI4Jfo91
+I9kXLe4AXUJ1dT7kLH4@7X1
+R1
+R2
+R3
+R4
+R5
+L0 149
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+n@divider
+vFSM
+R0
+!i10b 1
+!s100 zbB8ckf^eZjY52WA6`QfM3
+ImKZJLKZR^`k[=oJXK><NO3
+R1
+R2
+R3
+R4
+R5
+L0 76
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+n@f@s@m
+vldiv
+Z11 !s110 1443901363
+!i10b 1
+!s100 zkk^<0kF]`IG7Ljc`L94_0
+IgO9kI8C4Zg:Uo?zl8]ZX;0
+R1
+R2
+Z12 w1443901290
+8C:/Users/sjyhe/Desktop/ldiv-master/ldiv-master/ldiv.v
+FC:/Users/sjyhe/Desktop/ldiv-master/ldiv-master/ldiv.v
+L0 1
+R6
+r1
+!s85 0
+31
+Z13 !s108 1443901363.000000
+!s107 C:/Users/sjyhe/Desktop/ldiv-master/ldiv-master/ldiv.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sjyhe/Desktop/ldiv-master/ldiv-master/ldiv.v|
+!s101 -O0
+!i113 1
+R10
+vReg
+R0
+!i10b 1
+!s100 iAUSAU@E]5nS0E9nflA573
+IOY;n^5mQRVgVHg?ZOZS:22
+R1
+R2
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+n@reg
+vReg2
+R0
+!i10b 1
+!s100 []meKA;Xb[egaFQhoGY;g1
+I[ACFQ@4jlzEUn<[Mf9icI1
+R1
+R2
+R3
+R4
+R5
+L0 14
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+n@reg2
+vSubtractor
+R0
+!i10b 1
+!s100 ]n]]Cl`FETSJUY37M1YXI3
+IW7zO5VImWjc`AN_bKZbQD1
+R1
+R2
+R3
+R4
+R5
+L0 39
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+n@subtractor
+vtb
+R11
+!i10b 1
+!s100 jEZjk@=4F62aPY5CaV=HM0
+INXh4TGcIGU1VmHjDK5E=d0
+R1
+R2
+R12
+8C:/Users/sjyhe/Desktop/ldiv-master/ldiv-master/tb.v
+FC:/Users/sjyhe/Desktop/ldiv-master/ldiv-master/tb.v
+L0 1
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/sjyhe/Desktop/ldiv-master/ldiv-master/tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sjyhe/Desktop/ldiv-master/ldiv-master/tb.v|
+!s101 -O0
+!i113 1
+R10
+vtest
+R0
+!i10b 1
+!s100 kGBHVO5MAzW@l7bLAzaJA1
+ILgH:bKdi<VdTQ9ck64N^81
+R1
+R2
+w1443915827
+8D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/test.v
+FD:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/test.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/test.v|
+!s101 -O0
+!i113 1
+R10
+vtest_FSM
+R0
+!i10b 1
+!s100 ]:Db77aYo?=1`_A;ET?VY0
+I7UMlWG10zXLLKjZNaiBOT3
+R1
+R2
+w1443882480
+8D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/test_FSM.v
+FD:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/test_FSM.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/test_FSM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/test_FSM.v|
+!s101 -O0
+!i113 1
+R10
+ntest_@f@s@m

@@ -31,9 +31,9 @@ endmodule
 module Subtractor
 # (parameter W=8)
 (input [W-1:0] dividend, input[W-1:0] divider, output reg [W-1:0] out);
-	always @(*) begin
-		out=dividend-divider;
-	end
+  always @(*) begin
+    out=dividend-divider;
+  end
 endmodule
 
 //comparator, if a<b , output done.
@@ -52,9 +52,9 @@ endmodule
 module Counter
 # (parameter W=8)
 (input  [W-1:0] in, output reg[W-1:0] out);
-	always @(*) begin
-		out=in+1;
-	end
+  always @(*) begin
+    out=in+1;
+  end
 endmodule
 
 /**************
@@ -68,37 +68,34 @@ reg [2:0] cur_state, next_state;
 localparam START=0,BUSY=1,STOP=2;
 
 always @(posedge clk or posedge rst) begin
-	if (rst) begin
-		cur_state<=START;
-		end
-	else 
-		cur_state=next_state;
+  if (rst) begin
+    cur_state<=START;
+    end
+  else 
+    cur_state=next_state;
 end
 
 
 always @(*) begin
 
-  	next_state = cur_state;
-  	divider_load=0; divider_rst=0;
-  	dividend_rst=0;dividend_mod=0; //init
-  	done_rst=0; done_load=0;
-  	quotient_rst=0; quotient_load=0;
- 	case (cur_state)
+    next_state = cur_state;
+    divider_load=0; divider_rst=0;
+    dividend_rst=0;dividend_mod=0; //init
+    done_rst=0; done_load=0;
+    quotient_rst=0; quotient_load=0;
+  case (cur_state)
      
      START:  begin
-
      //reset
-      divider_rst=1;
+     divider_rst=1;
      //dividend_rst=1;
      quotient_rst=1;
      done_rst=1;
-     dividend_mod=0;
-
      if(done) next_state=STOP;
      else begin
-     	next_state=BUSY; 
+      next_state=BUSY; 
      end 
-     	
+      
      end
  
      BUSY: begin
@@ -107,20 +104,23 @@ always @(*) begin
      divider_load=1;
      done_load=1;
      quotient_load=1;
-     if(done) next_state=STOP;
+     if(done) begin
+     next_state=STOP; 
+
+     end
+     
      else next_state=BUSY;
      end
 
      STOP : begin
      dividend_mod=0;
-     quotient_load=0;
      end
      
 
 
      default :
      begin
-     	
+      
      end
 
   endcase
@@ -148,7 +148,8 @@ assign quotient=quotient_out;
 
 Reg #(W) divider_reg (divider, divider_load, divider_rst, clk,divider_out);
 Reg #(W) done_reg (done_in,done_load,done_rst,clk ,done);
-Reg #(W) quotient_reg (quotient_in, quotient_load, quotient_rst, clk, quotient_out);
+//Reg #(W) quotient_reg (quotient_in, quotient_load, quotient_rst, clk, quotient_out);
+Reg #(W) quotient_reg (quotient_in, (!done_in) & quotient_load, quotient_rst, clk, quotient_out);
 
 Reg21 #(W) dividend_reg  (dividend_in,dividend, dividend_mod,dividend_rst,clk,dividend_out);
 Subtractor # (W) substractor(dividend_out,divider_out, dividend_in);
