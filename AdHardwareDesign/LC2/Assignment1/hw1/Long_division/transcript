@@ -1,0 +1,988 @@
+# Reading D:/Program Files/ModelSim/tcl/vsim/pref.tcl
+# OpenFile D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/Long_division.mpf
+# Loading project Long_division
+# Compile of Divider.v was successful with warnings.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.test
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui D:\OneDrive\PolyCourse\AdHardwareDesign\LC2\Assignment1\Long_division\Long_division.mpf 
+# Start time: 18:27:36 on Oct 03,2015
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+# ** Warning: (vsim-3015) D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/Divider.v(177): [PCDPC] - Port size (1) does not match connection size (32) for port 'rst'. The port definition is at: D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/Divider.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /test/div/quotient_reg File: D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/Divider.v
+add wave -position insertpoint  \
+sim:/test/clk \
+sim:/test/rst \
+sim:/test/divider \
+sim:/test/dividend \
+sim:/test/done \
+sim:/test/quotient \
+sim:/test/reminder \
+sim:/test/en_dividend \
+sim:/test/en_divider \
+sim:/test/en_quotient \
+sim:/test/cur_state \
+sim:/test/next_state
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+run
+run
+# Compile of Divider.v failed with 1 errors.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 1 failed with 1 error.
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+run
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+run
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+run
+run
+run
+restart -f
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+run
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+run
+run
+# Compile of Divider.v failed with 1 errors.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 1 failed with 1 error.
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+run
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+# ** Warning: (vsim-3015) D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/Divider.v(191): [PCDPC] - Port size (1) does not match connection size (32) for port 'en'. The port definition is at: D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/Divider.v(41).
+#    Time: 0 ns  Iteration: 0  Instance: /test/div/sub File: D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/Divider.v
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+# Compile of Divider.v failed with 1 errors.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 1 failed with 1 error.
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+# Compile of Divider.v failed with 2 errors.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 1 failed with 2 errors.
+# Compile of Divider.v was successful with warnings.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of Divider.v was successful with warnings.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+# Compile of Divider.v was successful with warnings.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+# Compile of Divider.v was successful with warnings.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+# ** Warning: (vsim-3017) D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/Divider.v(194): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /test/div/sub File: D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/Divider.v
+# ** Warning: (vsim-3015) D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/Divider.v(194): [PCDPC] - Port size (1) does not match connection size (8) for port 'en_counter'. The port definition is at: D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/Divider.v(41).
+#    Time: 0 ns  Iteration: 0  Instance: /test/div/sub File: D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/Divider.v
+# ** Warning: (vsim-3722) D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/Divider.v(194): [TFMPC] - Missing connection for port 'out'.
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+# ** Warning: (vsim-3017) D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/Divider.v(195): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /test/div/sub File: D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/Divider.v
+# ** Warning: (vsim-3015) D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/Divider.v(195): [PCDPC] - Port size (1) does not match connection size (8) for port 'en_counter'. The port definition is at: D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/Divider.v(41).
+#    Time: 0 ns  Iteration: 0  Instance: /test/div/sub File: D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/Divider.v
+# ** Warning: (vsim-3722) D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/Divider.v(195): [TFMPC] - Missing connection for port 'out'.
+run
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.Subtractor
+# Loading work.Counter
+# Loading work.FSM
+run
+run
+run
+run
+# Compile of Divider.v failed with 1 errors.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 1 failed with 1 error.
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.subtractor
+# Loading work.FSM
+run
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.subtractor
+# Loading work.FSM
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.subtractor
+# Loading work.FSM
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.subtractor
+# Loading work.FSM
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.subtractor
+# Loading work.FSM
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.subtractor
+# Loading work.FSM
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.subtractor
+# Loading work.FSM
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.subtractor
+# Loading work.FSM
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.subtractor
+# Loading work.FSM
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.subtractor
+# Loading work.FSM
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.subtractor
+# Loading work.FSM
+run
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.subtractor
+# Loading work.FSM
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Divider.v was successful.
+# Compile of test.v was successful.
+# Compile of test_FSM.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Loading work.test
+# Loading work.Divider
+# Loading work.Reg2
+# Loading work.Reg
+# Loading work.Comparator
+# Loading work.subtractor
+# Loading work.FSM
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 21:32:05 on Oct 03,2015, Elapsed time: 3:04:29
+# Errors: 0, Warnings: 8

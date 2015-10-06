@@ -9,7 +9,7 @@ z2
 cModel Technology
 dD:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Divider
 vComparator
-Z0 !s110 1444089654
+Z0 !s110 1443921975
 !i10b 1
 !s100 WHI2<@i`cC>YS;ioH:IG53
 I`KF8S00Nj2EBYK4VlD=mA2
@@ -23,7 +23,7 @@ Z6 OP;L;10.4a;61
 r1
 !s85 0
 31
-Z7 !s108 1444089654.000000
+Z7 !s108 1443921975.000000
 Z8 !s107 D:\OneDrive\PolyCourse\AdHardwareDesign\LC2\Assignment1\Long_division\Divider.v|
 Z9 !s90 -reportprogress|300|-work|work|-stats=none|D:\OneDrive\PolyCourse\AdHardwareDesign\LC2\Assignment1\Long_division\Divider.v|
 !s101 -O0
@@ -228,21 +228,21 @@ R10
 vtest
 R0
 !i10b 1
-!s100 :Y3Gi?B@nhid_i><z0Nok0
-II:X6dOG0^OgfLOHe3L0X52
+!s100 f]Rii9Fci9Kb>dY<F_=ne0
+ISPg@LB73chG`X:kFK^4Hz2
 R1
 R2
-w1444089643
-8D:\OneDrive\PolyCourse\AdHardwareDesign\LC2\Assignment1\Long_division\test.v
-FD:\OneDrive\PolyCourse\AdHardwareDesign\LC2\Assignment1\Long_division\test.v
+w1443921806
+8D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/test.v
+FD:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/test.v
 L0 1
 R6
 r1
 !s85 0
 31
 R7
-!s107 D:\OneDrive\PolyCourse\AdHardwareDesign\LC2\Assignment1\Long_division\test.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:\OneDrive\PolyCourse\AdHardwareDesign\LC2\Assignment1\Long_division\test.v|
+!s107 D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/OneDrive/PolyCourse/AdHardwareDesign/LC2/Assignment1/Long_division/test.v|
 !s101 -O0
 !i113 1
 R10
